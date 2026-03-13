@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Dataset files (Too large for GitHub)
+*.csv
+True.csv
+Fake.csv
+
+# Saved Model files (Optional: we can exclude these to force users to train it themselves, 
+# or keep them. Often models > 100MB are blocked by GitHub anyway)
+model.pkl
+vectorizer.pkl
