@@ -21,5 +21,5 @@ Fake.csv
 
 # Saved Model files (Optional: we can exclude these to force users to train it themselves, 
 # or keep them. Often models > 100MB are blocked by GitHub anyway)
-model.pkl
-vectorizer.pkl
+# model.pkl
+# vectorizer.pkl
