@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-st.set_page_config(page_title="AI Fake News Detector", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="AI Fake News Detector", layout="centered")
 
 # Custom CSS for a slight neon/hacker vibe
 st.markdown("""
