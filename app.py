@@ -56,7 +56,7 @@ def load_models():
             vectorizer = pickle.load(f)
         return model, vectorizer
     except Exception as e:
-        st.error("Error loading model files. Did you upload model.pkl and vectorizer.pkl?")
+        st.error(f"Error: {e}")
         return None, None
 
 model, vectorizer = load_models()
