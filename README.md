@@ -9,6 +9,12 @@ An Artificial Intelligence model built with Python and `scikit-learn` that uses 
 - Eliminates "publisher bias" from the dataset for genuine pattern learning.
 - Includes a fast, interactive command-line interface for testing new articles.
 
+## Point to be remember
+The Dataset which is used to train Model contains news data till 2017.
+
+## WORKING WEBSITE/PAGE
+https://fake-news-detector-dfsajtjqpzwclfbuxbpyng.streamlit.app/
+
 ## How to Run Locally
 
 ### Prerequisites
