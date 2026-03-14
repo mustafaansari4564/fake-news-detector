@@ -43,7 +43,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='title'>🤖 AI Fake News Detector</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='title'> AI Fake News Detector</h1>", unsafe_allow_html=True)
 st.markdown("<h3 class='subtitle'>Analyze news text using Machine Learning</h3>", unsafe_allow_html=True)
 
 # Function to load models with caching so it doesn't reload on every button click
